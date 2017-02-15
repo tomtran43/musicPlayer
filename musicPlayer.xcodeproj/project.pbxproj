@@ -13,6 +13,16 @@
 		19BC91491E52F3AE006CFCDF /* musicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19BC91471E52F3AE006CFCDF /* musicPlayer.xcdatamodeld */; };
 		19BC914B1E52F3AE006CFCDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BC914A1E52F3AE006CFCDF /* Assets.xcassets */; };
 		19BC914E1E52F3AE006CFCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BC914C1E52F3AE006CFCDF /* LaunchScreen.storyboard */; };
+		19BC915E1E52F4A3006CFCDF /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC91561E52F4A3006CFCDF /* thumbHightLight.png */; };
+		19BC915F1E52F4A3006CFCDF /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC91571E52F4A3006CFCDF /* thumb.png */; };
+		19BC91601E52F4A3006CFCDF /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC91581E52F4A3006CFCDF /* play.png */; };
+		19BC91611E52F4A3006CFCDF /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC91591E52F4A3006CFCDF /* pause.png */; };
+		19BC91621E52F4A3006CFCDF /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19BC915A1E52F4A3006CFCDF /* music.mp3 */; };
+		19BC91631E52F4A3006CFCDF /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC915B1E52F4A3006CFCDF /* miniVolume.png */; };
+		19BC91641E52F4A3006CFCDF /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC915C1E52F4A3006CFCDF /* maxVolume.png */; };
+		19BC91651E52F4A3006CFCDF /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BC915D1E52F4A3006CFCDF /* duration.png */; };
+		19BC91671E53031A006CFCDF /* Cold Summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19BC91661E53031A006CFCDF /* Cold Summer.mp3 */; };
+		19BC91691E541244006CFCDF /* noinaycoanh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19BC91681E541244006CFCDF /* noinaycoanh.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		19BC914A1E52F3AE006CFCDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19BC914D1E52F3AE006CFCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19BC914F1E52F3AE006CFCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BC91561E52F4A3006CFCDF /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		19BC91571E52F4A3006CFCDF /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		19BC91581E52F4A3006CFCDF /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		19BC91591E52F4A3006CFCDF /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		19BC915A1E52F4A3006CFCDF /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		19BC915B1E52F4A3006CFCDF /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		19BC915C1E52F4A3006CFCDF /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		19BC915D1E52F4A3006CFCDF /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		19BC91661E53031A006CFCDF /* Cold Summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cold Summer.mp3"; sourceTree = "<group>"; };
+		19BC91681E541244006CFCDF /* noinaycoanh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noinaycoanh.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 		19BC913F1E52F3AE006CFCDF /* musicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				19BC91551E52F488006CFCDF /* Resources */,
 				19BC91401E52F3AE006CFCDF /* AppDelegate.swift */,
 				19BC91421E52F3AE006CFCDF /* ViewController.swift */,
 				19BC91441E52F3AE006CFCDF /* Main.storyboard */,
@@ -65,6 +86,23 @@
 				19BC91471E52F3AE006CFCDF /* musicPlayer.xcdatamodeld */,
 			);
 			path = musicPlayer;
+			sourceTree = "<group>";
+		};
+		19BC91551E52F488006CFCDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19BC91681E541244006CFCDF /* noinaycoanh.mp3 */,
+				19BC91561E52F4A3006CFCDF /* thumbHightLight.png */,
+				19BC91571E52F4A3006CFCDF /* thumb.png */,
+				19BC91661E53031A006CFCDF /* Cold Summer.mp3 */,
+				19BC91581E52F4A3006CFCDF /* play.png */,
+				19BC91591E52F4A3006CFCDF /* pause.png */,
+				19BC915A1E52F4A3006CFCDF /* music.mp3 */,
+				19BC915B1E52F4A3006CFCDF /* miniVolume.png */,
+				19BC915C1E52F4A3006CFCDF /* maxVolume.png */,
+				19BC915D1E52F4A3006CFCDF /* duration.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +164,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BC91621E52F4A3006CFCDF /* music.mp3 in Resources */,
+				19BC915F1E52F4A3006CFCDF /* thumb.png in Resources */,
+				19BC91641E52F4A3006CFCDF /* maxVolume.png in Resources */,
 				19BC914E1E52F3AE006CFCDF /* LaunchScreen.storyboard in Resources */,
+				19BC91671E53031A006CFCDF /* Cold Summer.mp3 in Resources */,
 				19BC914B1E52F3AE006CFCDF /* Assets.xcassets in Resources */,
+				19BC91611E52F4A3006CFCDF /* pause.png in Resources */,
+				19BC91631E52F4A3006CFCDF /* miniVolume.png in Resources */,
+				19BC915E1E52F4A3006CFCDF /* thumbHightLight.png in Resources */,
 				19BC91461E52F3AE006CFCDF /* Main.storyboard in Resources */,
+				19BC91691E541244006CFCDF /* noinaycoanh.mp3 in Resources */,
+				19BC91651E52F4A3006CFCDF /* duration.png in Resources */,
+				19BC91601E52F4A3006CFCDF /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
